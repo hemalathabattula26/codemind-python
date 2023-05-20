@@ -1,0 +1,19 @@
+n=int(input())
+s=n*n
+q=n
+c=0
+while(q):
+    r=q%10
+    c=c*10+r
+    q=q//10
+sq=c*c
+sq1=sq
+c1=0
+while(sq1):
+    r1=sq1%10
+    c1=c1*10+r1
+    sq1=sq1//10
+if s==c1:
+    print("True")
+else:
+    print("False")
